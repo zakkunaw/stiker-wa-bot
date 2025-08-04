@@ -1,0 +1,14 @@
+node_modules/
+auth/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Optional: ignore OS and editor files
+.vscode/
+*.swp
+Thumbs.db
+auth/
+.env
