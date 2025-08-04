@@ -22,6 +22,14 @@ Bot WhatsApp untuk membuat stiker dari gambar/video dan mengubah stiker menjadi 
    ```
 4. Scan QR code di terminal dengan WhatsApp (Linked Devices).
 
+## Alternatif Instalasi Manual
+Jika ingin setup dari awal (tanpa package.json):
+```bash
+npm init -y
+npm install @whiskeysockets/baileys wa-sticker-formatter pino qrcode-terminal
+node sticker_bot_updated.js
+```
+
 ## Cara Pakai
 - Untuk membuat stiker: reply gambar/video lalu kirim `.s`
 - Untuk mengubah stiker ke gambar: reply stiker lalu kirim `.toimg`
